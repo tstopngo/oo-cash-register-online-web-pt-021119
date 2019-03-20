@@ -1,7 +1,11 @@
 class CashRegister
   
+<<<<<<< HEAD
   attr_accessor :total, :discount, :last_transaction
   attr_reader :items
+=======
+  attr_accessor :total, :discount, :last_transaction, :items
+>>>>>>> 222e9a16ed802776bb5a563d901d107a9c9c6b97
     
   
   def initialize(discount=0)
